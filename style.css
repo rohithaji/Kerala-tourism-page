@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.button-1{
+    color: white;
+    background-color: transparent;
+    border-color: #20d45c;
+    border-width: 2px;
+    border-style: solid;
+    padding: 6px 15px;
+    margin-left: 15px;
+}
+
+.button-2{
+    color: white;
+    background-color: #20d45c;
+    border-color: #20d45c;
+    border-width: 2px;
+    border-style: solid;
+    padding: 6px 15px;
+    margin-left: 15px;
+}
+
+
+
+button{
+    color: white;
+    background-color: #20d45c;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: "roboto",arial,sans-serif;
+    border: none;
+   
+}
+
+
+.kerala-2{
+     
+    font-size: larger;
+    padding: 10px;
+    font-family: "roboto" Arial, sans-serif;
+    line-height: 1.5;
+    margin-left: 20px;
+    
+}
+
+.kerala-1{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+#map{
+    float: right;
+    width: 30%;
+    height: 400px;    
+    border: 3px solid #20d45c;;
+}
+
+.districts-box ol{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;   
+}
+
+.districts-box p{
+    font-size: larger;
+    font-family:"roboto"Arial, sans-serif;
+}
+
+.districts-box li{   
+    list-style: none;
+}
+
+.district-name{
+    position: relative;
+    left: 180px;
+    font-weight: bolder;
+}
+.dist-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 170px;
+    padding: 20px;
+    margin-left: 50px;
+
+}
+
+
+.district-name{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "roboto",arial,sans-serif;
+    margin-top: 20px;
+
+}
+.district-container{
+margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 40px;
+    margin: auto;
+    width: 350px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .form h2{
+    color: black;
+    font-family: "roboto",arial,sans-serif; 
+    font-size: 20px; 
+  }
+  
+  .form .input-box{
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .form .input-box input{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    padding: 8px 0;
+    border-bottom: 1px solid rgb(31, 30, 30);
+  }
+  
+  .form .input-box #Districts {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    background-color: gainsboro;
+    color: rgb(81, 81, 81);
+  }
+  .form .input-box #box-button{
+    width: 150px;
+    padding: 10px 0;
+    color: white;
+    background-color: #20d45c;
+    font-size: 16px;
+    font-family: "roboto",arial,sans-serif;
+    border: none;
+  }
+
+  
+
+  .footer-container{
+    margin-top: 50px;
+    padding: 10px;
+  }
+.copyright{
+    color: black;
+    font-size: 15px;
+    font-family: "roboto",arial,sans-serif;
+}
+
